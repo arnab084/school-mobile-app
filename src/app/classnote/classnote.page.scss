@@ -1,0 +1,31 @@
+.class-note-container {
+  height: 100vh;
+  background: #3a7be0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .note-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    .note-box{
+      width: 25%;
+      height: 100px;
+      margin: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      background-image: url('/assets/note.png');
+      background-repeat: no-repeat;
+      background-size: 50px;
+      background-position: center;
+      position: relative;
+      .text-class{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}
